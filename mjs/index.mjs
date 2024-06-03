@@ -6,5 +6,5 @@
 
 import { sum, sub } from "./operaciones.mjs";
 
-console.log(sum(8,4));
+console.log(sum(8, 4));
 console.log(sub(2, 4));

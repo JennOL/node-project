@@ -1,0 +1,51 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "El mejor curso de Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JennOL/node-project.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "jennjenn"
+  ],
+  "author": "Jenniffer Orjuela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JennOL/node-project/issues"
+  },
+  "homepage": "https://github.com/JennOL/node-project#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "picocolors": "1.0.1"
+  },
+  "devDependencies": {
+    "standart": "^6.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "semi": [
+        "error",
+        "always"
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ]
+    }
+  },
+  "comments": {
+    "G": " x.y.z --> SEMANTIC VERSIONING",
+    "x": "la MAJOR y es cuando se rompe la compatibilidad hacia atras",
+    "y": "la MINOR y es cuando se añaden nuevas funcionalidades",
+    "z": "la PATCH y es cuando se corrige un bug"
+  }
+}
